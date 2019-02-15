@@ -1,0 +1,14 @@
+INICIO:
+xa=12;
+d=xa-4;
+dass=12&d;
+x=d;
+a=15+2;
+b=xa-2;
+c=b*2;
+s=x/c;
+a=-31+b;
+xa=d%x;
+s=dass==b;
+h=dass|2;
+FIN;
