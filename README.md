@@ -1,9 +1,9 @@
 #Compilador-Procesador---Digitales-III
---------------------------------------
+=============
 Compilador para un procesador basado en set de instrucciones, y un archivo de codigo (solo una operacion por linea), la sintaxys parecida a C (debido a que todos los datos son entero no es necesario poner ->int<- para crear las las variables EJ1 linea1>> a=1; EJ2 linea2>> persona=12-a)
 
 ##Descargar:
---------------------------------------
+=============
 Para descargar el proyecto solo basta con usar el siguiente link
 - ```https://github.com/ANDRESHZ/Compilador-Procesador---Digitales-III/archive/master.zip```
 O
@@ -11,18 +11,18 @@ O
 
 Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
 ##USO:
---------------------------------------
+=============
     - Para realizar el correcto uso se desconprime y se accede a esa carpewta usando cd.
     - Deben editar ("set.txt") o en su defecto crear los archivo de set de instruccionesw qeu siga la norma EJEMPLO:
-    ###Set de instrucciones:
+###Set de instrucciones:
 --------------------------------------
-        -Debe ser hecho en un archivo .txt
-        -La primera instruccion 00000 debe ser "INICIO"
-        -La segunda instruccion 00001 debe ser "="
-        -La ultima instruccion 11111 debe ser "FIN"
-        -Las instrucciones vacias (no usadas) poner la palabra "NAN"
-        -Usar los simbolos de operaciones normales no palabras (+,-,*,/,&,|,^,%,...)
-        -La instruccion de resta (si la va incluir en su set) debe ir antes que la se suma EJ  
+-Debe ser hecho en un archivo .txt
+-La primera instruccion 00000 debe ser "INICIO"
+-La segunda instruccion 00001 debe ser "="
+-La ultima instruccion 11111 debe ser "FIN"
+-Las instrucciones vacias (no usadas) poner la palabra "NAN"
+-Usar los simbolos de operaciones normales no palabras (+,-,*,/,&,|,^,%,...)
+-La instruccion de resta (si la va incluir en su set) debe ir antes que la se suma EJ  
         ```
             ...
             00110:-
