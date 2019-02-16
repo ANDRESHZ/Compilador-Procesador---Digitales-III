@@ -7,7 +7,9 @@ Compilador para un procesador basado en set de instrucciones, y un archivo de co
 
 Para descargar el proyecto solo basta con usar el siguiente link
 - ```https://github.com/ANDRESHZ/Compilador-Procesador---Digitales-III/archive/master.zip```
+
 O
+
 - ```git clone https://github.com/ANDRESHZ/Compilador-Procesador---Digitales-III```
 
 Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
@@ -15,8 +17,8 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
 ##USO:
 =============
 
-    - Para realizar el correcto uso se desconprime y se accede a esa carpewta usando cd.
-    - Deben editar ("set.txt") o en su defecto crear los archivo de set de instruccionesw qeu siga la norma EJEMPLO:
+- Para realizar el correcto uso se desconprime y se accede a esa carpewta usando cd.
+- Deben editar ("set.txt") o en su defecto crear los archivo de set de instruccionesw qeu siga la norma EJEMPLO:
 
 ###Set de instrucciones:
 --------------------------------------
@@ -71,14 +73,14 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
             11111:FIN
         ```
 
-    ###Codigo a compilar:
+###Codigo a compilar:
 --------------------------------------
 
-        -Debe ser hecho en un archivo .txt
-        -Debe comenzar con la plabra "INICIO:"
-        -Debe finalizar con la palabra "FIN;"
-        -Cada linea Finaliza con ";"
-        -Para poner comentarios use "//" ejemplo:
+-Debe ser hecho en un archivo .txt
+-Debe comenzar con la plabra "INICIO:"
+-Debe finalizar con la palabra "FIN;"
+-Cada linea Finaliza con ";"
+-Para poner comentarios use "//" ejemplo:
         ``` 
             //esto es un comentario debe se puesto en un a linea solito
             t=29; // estos tambien se pueden usar
