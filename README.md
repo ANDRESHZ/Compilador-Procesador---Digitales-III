@@ -91,7 +91,7 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
     num=1;
     paso=-5;
     perro=paso-num;
-```bash
+```
 
 - Maximo dos datos por operacion Ejemplo:
 
