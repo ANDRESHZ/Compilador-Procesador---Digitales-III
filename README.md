@@ -78,7 +78,7 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
 ```
 
 ###Codigo a compilar:
-=============
+--------------
 
 - Debe ser hecho en un archivo .txt
 - Debe comenzar con la plabra "INICIO:"
