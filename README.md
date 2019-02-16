@@ -1,7 +1,8 @@
 #Compilador-Procesador---Digitales-III
 =============
-Compilador para un procesador basado en set de instrucciones, y un archivo de codigo (solo una operacion por linea), la sintaxys parecida a C (debido a que todos los datos son entero no es necesario poner ->int<- para crear las las variables EJ1 linea1>> a=1; 
- ``` EJ2 linea2>> persona=12-a)```
+Compilador para un procesador basado en set de instrucciones, y un archivo de codigo (solo una operacion por linea), la sintaxys parecida a C (debido a que todos los datos son entero no es necesario poner ->int<- para crear las las variables 
+ ``` EJ1 linea1>> a=1; 
+EJ2 linea2>> persona=12-a)```
 
 ##Descargar:
 =============
