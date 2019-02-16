@@ -23,13 +23,13 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
 ###Set de instrucciones:
 =============
 
--Debe ser hecho en un archivo .txt
--La primera instruccion 00000 debe ser "INICIO"
--La segunda instruccion 00001 debe ser "="
--La ultima instruccion 11111 debe ser "FIN"
--Las instrucciones vacias (no usadas) poner la palabra "NAN"
--Usar los simbolos de operaciones normales no palabras (+,-,*,/,&,|,^,%,...)
--La instruccion de resta (si la va incluir en su set) debe ir antes que la se suma EJ  
+- Debe ser hecho en un archivo .txt
+- La primera instruccion 00000 debe ser "INICIO"
+- La segunda instruccion 00001 debe ser "="
+- La ultima instruccion 11111 debe ser "FIN"
+- Las instrucciones vacias (no usadas) poner la palabra "NAN"
+- Usar los simbolos de operaciones normales no palabras (+,-,*,/,&,|,^,%,...)
+- La instruccion de resta (si la va incluir en su set) debe ir antes que la se suma EJ  
 ```bahs
     ...
     00110:-
@@ -37,7 +37,7 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
     11011:+
     ...
 ```
--Un ejemplo esta en el archivo "set.txt", pueden modificarlo o crear otro archivo con otro nombre:
+- Un ejemplo esta en el archivo "set.txt", pueden modificarlo o crear otro archivo con otro nombre:
 ```bash
     00000:INICIO
     00001:=
@@ -76,16 +76,16 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
 ###Codigo a compilar:
 =============
 
--Debe ser hecho en un archivo .txt
--Debe comenzar con la plabra "INICIO:"
--Debe finalizar con la palabra "FIN;"
--Cada linea Finaliza con ";"
--Para poner comentarios use "//" ejemplo:
+- Debe ser hecho en un archivo .txt
+- Debe comenzar con la plabra "INICIO:"
+- Debe finalizar con la palabra "FIN;"
+- Cada linea Finaliza con ";"
+- Para poner comentarios use "//" ejemplo:
 ```bash
     //esto es un comentario debe se puesto en un a linea solito
     t=29; // estos tambien se pueden usar
 ```    
--Para inicializar variables NO debe usar la palabra reservada int, Solo poner el nombre de la variable que desea Ejemplo:
+- Para inicializar variables NO debe usar la palabra reservada int, Solo poner el nombre de la variable que desea Ejemplo:
 
 ```bash
     num=1;
@@ -93,7 +93,7 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
     perro=paso-num;
 ```bash
 
--Maximo dos datos por operacion Ejemplo:
+- Maximo dos datos por operacion Ejemplo:
 
 ```bash
     xa=12;
@@ -101,7 +101,9 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
     dass=12%d;
     x=d/dass;
 ```
--NO PONER ESPACIOS VACIOS ENTRE LINEAS.
+
+- NO PONER ESPACIOS VACIOS ENTRE LINEAS.
+---------------------------------------
 
 ###Ejecutar el archivo "Compilar.py":
 =============
