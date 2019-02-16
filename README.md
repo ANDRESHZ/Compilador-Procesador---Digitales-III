@@ -1,7 +1,9 @@
 #Compilador-Procesador---Digitales-III
+--------------------------------------
 Compilador para un procesador basado en set de instrucciones, y un archivo de codigo (solo una operacion por linea), la sintaxys parecida a C (debido a que todos los datos son entero no es necesario poner ->int<- para crear las las variables EJ1 linea1>> a=1; EJ2 linea2>> persona=12-a)
 
 ##Descargar:
+--------------------------------------
     Para descargar el proyecto solo basta con usar el siguiente link
     - ```https://github.com/ANDRESHZ/Compilador-Procesador---Digitales-III/archive/master.zip```
     O
@@ -9,9 +11,11 @@ Compilador para un procesador basado en set de instrucciones, y un archivo de co
 
     Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
 ##USO:
+--------------------------------------
     - Para realizar el correcto uso se desconprime y se accede a esa carpewta usando cd.
     - Deben editar ("set.txt") o en su defecto crear los archivo de set de instruccionesw qeu siga la norma EJEMPLO:
     ###Set de instrucciones:
+    --------------------------------------
         -Debe ser hecho en un archivo .txt
         -La primera instruccion 00000 debe ser "INICIO"
         -La segunda instruccion 00001 debe ser "="
@@ -62,6 +66,7 @@ Compilador para un procesador basado en set de instrucciones, y un archivo de co
             11111:FIN
         ```
     ###Codigo a compilar:
+    --------------------------------------
         -Debe ser hecho en un archivo .txt
         -Debe comenzar con la plabra "INICIO:"
         -Debe finalizar con la palabra "FIN;"
@@ -88,6 +93,7 @@ Compilador para un procesador basado en set de instrucciones, y un archivo de co
         -NO PONER ESPACIOS VACIOS ENTRE LINEAS.
             
     ###Ejecutar el archivo "Compilar.py":
+    --------------------------------------
         Para su unicamente deben entrar a la carpeta descompresa "compilar" dentro de donde se descargo
         - ```cd /Compilador-Procesador---Digita.../les-III-master/compilar/```
         para ejecutar usar : "python Compilar.py <nombre Codigo>.txt <nombre Set Instrucciones>.txt", para ejecutarlo reemplazar por los nombres que uds quieran en orden, por ejemplo los archivos que estan a l lado seria:       
