@@ -30,48 +30,48 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
 -Las instrucciones vacias (no usadas) poner la palabra "NAN"
 -Usar los simbolos de operaciones normales no palabras (+,-,*,/,&,|,^,%,...)
 -La instruccion de resta (si la va incluir en su set) debe ir antes que la se suma EJ  
-        ```
-            ...
-            00110:-
-            ...
-            11011:+
-            ...
-        ```
-        -Un ejemplo esta en el archivo "set.txt", pueden modificarlo o crear otro archivo con otro nombre:
-        ```
-            00000:INICIO
-            00001:=
-            00010:-
-            00011:+
-            00100:-
-            00101:/
-            00110:%
-            00111:==
-            01000:>
-            01001:<
-            01010:!=
-            01011:&
-            01100:|
-            01101:!
-            01110:^
-            01111:jump
-            10000:NAN
-            10001:NAN
-            10010:NAN
-            10011:NAN
-            10100:NAN
-            10101:NAN
-            10110:NAN
-            10111:NAN
-            11000:NAN
-            11001:NAN
-            11010:NAN
-            11011:NAN
-            11100:NAN
-            11101:NAN
-            11110:NAN
-            11111:FIN
-        ```
+```bahs
+    ...
+    00110:-
+    ...
+    11011:+
+    ...
+```
+-Un ejemplo esta en el archivo "set.txt", pueden modificarlo o crear otro archivo con otro nombre:
+```bash
+    00000:INICIO
+    00001:=
+    00010:-
+    00011:+
+    00100:-
+    00101:/
+    00110:%
+    00111:==
+    01000:>
+    01001:<
+    01010:!=
+    01011:&
+    01100:|
+    01101:!
+    01110:^
+    01111:jump
+    10000:NAN
+    10001:NAN
+    10010:NAN
+    10011:NAN
+    10100:NAN
+    10101:NAN
+    10110:NAN
+    10111:NAN
+    11000:NAN
+    11001:NAN
+    11010:NAN
+    11011:NAN
+    11100:NAN
+    11101:NAN
+    11110:NAN
+    11111:FIN
+```
 
 ###Codigo a compilar:
 =============
@@ -81,25 +81,27 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
 -Debe finalizar con la palabra "FIN;"
 -Cada linea Finaliza con ";"
 -Para poner comentarios use "//" ejemplo:
-        ``` 
-            //esto es un comentario debe se puesto en un a linea solito
-            t=29; // estos tambien se pueden usar
-        ```    
+```bash
+    //esto es un comentario debe se puesto en un a linea solito
+    t=29; // estos tambien se pueden usar
+```    
+-Para inicializar variables NO debe usar la palabra reservada int, Solo poner el nombre de la variable que desea Ejemplo:
 
-        -Para inicializar variables NO debe usar la palabra reservada int, Solo poner el nombre de la variable que desea Ejemplo:
-        ```
-            num=1;
-            paso=-5;
-            perro=paso-num;
-        ```
-        -Maximo dos datos por operacion Ejemplo:
-        ```
-            xa=12;
-            d=xa-4;
-            dass=12%d;
-            x=d/dass;
-        ```
-        -NO PONER ESPACIOS VACIOS ENTRE LINEAS.
+```bash
+    num=1;
+    paso=-5;
+    perro=paso-num;
+```bash
+
+-Maximo dos datos por operacion Ejemplo:
+
+```bash
+    xa=12;
+    d=xa-4;
+    dass=12%d;
+    x=d/dass;
+```
+-NO PONER ESPACIOS VACIOS ENTRE LINEAS.
 
 ###Ejecutar el archivo "Compilar.py":
 =============
