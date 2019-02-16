@@ -114,7 +114,9 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
 
 Para su unicamente deben entrar a la carpeta descompresa "compilar" dentro de donde se descargo
 - ```cd /Compilador-Procesador---Digita.../les-III-master/compilar/```
-para ejecutar usar : "python Compilar.py {nombre Codigo}.txt {nombre Set Instrucciones}.txt", para ejecutarlo reemplazar por los nombres que uds quieran en orden, por ejemplo los archivos que estan a l lado seria:       
+
+Para ejecutar usar : "python Compilar.py {nombre Codigo}.txt {nombre Set Instrucciones}.txt", para ejecutarlo reemplazar por los nombres que uds quieran en orden, por ejemplo los archivos que estan a l lado seria:       
+
 - ```python Compilar.py cod.txt set.txt```
 
 
