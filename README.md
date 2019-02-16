@@ -25,7 +25,7 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
 - Deben editar ("set.txt") o en su defecto crear los archivo de set de instruccionesw qeu siga la norma EJEMPLO:
 
 ###Set de instrucciones:
-=============
+--------------
 
 - Debe ser hecho en un archivo .txt
 - La primera instruccion 00000 debe ser "INICIO"
