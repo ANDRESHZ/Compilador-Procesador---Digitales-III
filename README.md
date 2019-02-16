@@ -21,7 +21,7 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
 - Deben editar ("set.txt") o en su defecto crear los archivo de set de instruccionesw qeu siga la norma EJEMPLO:
 
 ###Set de instrucciones:
---------------------------------------
+=============
 
 -Debe ser hecho en un archivo .txt
 -La primera instruccion 00000 debe ser "INICIO"
@@ -74,7 +74,7 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
         ```
 
 ###Codigo a compilar:
---------------------------------------
+=============
 
 -Debe ser hecho en un archivo .txt
 -Debe comenzar con la plabra "INICIO:"
@@ -102,11 +102,11 @@ Al desconprimir les quedar aun carpeta conteniendo todo el codigo y archivos
         -NO PONER ESPACIOS VACIOS ENTRE LINEAS.
 
 ###Ejecutar el archivo "Compilar.py":
---------------------------------------
+=============
 
-    Para su unicamente deben entrar a la carpeta descompresa "compilar" dentro de donde se descargo
-    - ```cd /Compilador-Procesador---Digita.../les-III-master/compilar/```
-    para ejecutar usar : "python Compilar.py <nombre Codigo>.txt <nombre Set Instrucciones>.txt", para ejecutarlo reemplazar por los nombres que uds quieran en orden, por ejemplo los archivos que estan a l lado seria:       
-    - ```python Compilar.py cod.txt set.txt```
+Para su unicamente deben entrar a la carpeta descompresa "compilar" dentro de donde se descargo
+- ```cd /Compilador-Procesador---Digita.../les-III-master/compilar/```
+para ejecutar usar : "python Compilar.py <nombre Codigo>.txt <nombre Set Instrucciones>.txt", para ejecutarlo reemplazar por los nombres que uds quieran en orden, por ejemplo los archivos que estan a l lado seria:       
+- ```python Compilar.py cod.txt set.txt```
 
 
